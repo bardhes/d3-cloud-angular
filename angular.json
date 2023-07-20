@@ -36,9 +36,7 @@
               "projects/angular-d3-cloud/tsconfig.lib.json",
               "projects/angular-d3-cloud/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -63,9 +61,7 @@
               "projects/example/src/favicon.ico",
               "projects/example/src/assets"
             ],
-            "styles": [
-              "projects/example/src/styles.css"
-            ],
+            "styles": ["projects/example/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -126,9 +122,7 @@
               "projects/example/src/favicon.ico",
               "projects/example/src/assets"
             ],
-            "styles": [
-              "projects/example/src/styles.css"
-            ],
+            "styles": ["projects/example/src/styles.css"],
             "scripts": []
           }
         },
@@ -140,9 +134,7 @@
               "projects/example/tsconfig.spec.json",
               "projects/example/e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
@@ -159,6 +151,5 @@
         }
       }
     }
-  },
-  "defaultProject": "angular-d3-cloud"
+  }
 }
