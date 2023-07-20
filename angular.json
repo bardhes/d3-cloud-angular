@@ -19,7 +19,8 @@
             "production": {
               "tsConfig": "projects/angular-d3-cloud/tsconfig.lib.prod.json"
             }
-          }
+          },
+          "allowedNonPeerDependencies": ["d3-cloud"]
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
