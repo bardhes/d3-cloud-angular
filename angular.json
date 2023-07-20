@@ -20,7 +20,14 @@
               "tsConfig": "projects/angular-d3-cloud/tsconfig.lib.prod.json"
             }
           },
-          "allowedNonPeerDependencies": ["d3-cloud"]
+          "allowedNonPeerDependencies": [
+            "d3-cloud",
+            "tslib",
+            "d3-selection",
+            "d3-scale",
+            "d3-scale-chromatic",
+            "d3-transition"
+          ]
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",

@@ -1,14 +1,8 @@
 {
   "name": "@bardhes/angular-d3-cloud",
-  "version": "0.0.0",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --configuration production",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
-  },
+  "title": "Angular D3 Word Cloud",
+  "description": "D3 word cloud component for Angular built upon d3-cloud",
+  "version": "0.0.1",
   "dependencies": {
     "@angular/animations": "^15.2.0",
     "@angular/common": "^15.2.0",
@@ -31,11 +25,11 @@
     "@angular-devkit/build-angular": "^15.2.4",
     "@angular/cli": "~15.2.4",
     "@angular/compiler-cli": "^15.2.0",
-    "@types/d3-cloud": "^1.2.3",
-    "@types/d3-scale": "^3.2.2",
-    "@types/d3-scale-chromatic": "^2.0.0",
-    "@types/d3-selection": "^2.0.0",
-    "@types/d3-transition": "^2.0.0",
+    "@types/d3-cloud": "^1.2.5",
+    "@types/d3-scale": "^3.3.2",
+    "@types/d3-scale-chromatic": "^2.0.1",
+    "@types/d3-selection": "^2.0.1",
+    "@types/d3-transition": "^2.0.2",
     "@types/jasmine": "~4.3.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
@@ -52,7 +46,6 @@
     "tslint": "~6.1.0",
     "typescript": "~4.9.4"
   },
-  "description": "D3 Cloud component for Angular built upon d3-cloud",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -60,7 +53,9 @@
   },
   "keywords": [
     "angular d3-cloud",
-    "angular d3-word-cloud\"",
+    "angular d3-word-cloud",
+    "angular-d3-cloud",
+    "angular-d3-word-cloud",
     "angular word cloud",
     "word cloud"
   ],
